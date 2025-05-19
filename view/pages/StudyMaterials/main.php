@@ -279,7 +279,7 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="index2.php" class="nav-link">
+                                    <a href="main.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             المواد الدراسية
