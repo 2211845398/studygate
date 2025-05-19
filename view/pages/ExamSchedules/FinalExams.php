@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Simple Tables</title>
+    <title>StudyGate</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -26,7 +26,7 @@
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="../../index3.html" class="nav-link">Home</a>
+                    <a href="../../index2.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="#" class="nav-link">Contact</a>
@@ -164,7 +164,7 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="../../index3.html" class="brand-link">
+            <a href="../../index2.php" class="brand-link">
                 <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
@@ -202,7 +202,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                 with font-awesome or any other icon font library -->
                         <li class="nav-item menu-open">
-                            <a href="../../index.html" class="nav-link active">
+                            <a href="../../index2.php" class="nav-link active">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     لوحة التحكم
@@ -219,7 +219,7 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="../../index.html" class="nav-link">
+                                    <a href="../../index2.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             الفصول الدراسية
@@ -239,7 +239,7 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="../../index.html" class="nav-link">
+                                    <a href="../../index2.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             الطلاب
@@ -259,7 +259,7 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="../../index.html" class="nav-link">
+                                    <a href="../../index2.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             المعلمون
@@ -279,7 +279,7 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="pages/StudyMaterials/index.html" class="nav-link">
+                                    <a href="index2.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             المواد الدراسية
@@ -299,13 +299,13 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="../../index.html" class="nav-link">
+                                    <a href="../../index2.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             الجداول الدراسية
                                         </p>
                                     </a>
-                                    <a href="../../index.html" class="nav-link">
+                                    <a href="../../index2.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             جداول الامتحانات
@@ -347,98 +347,65 @@
 
             <!-- Main content -->
             <section class="content">
-                <div class="container-fluid">
-                    <div class="card card-primary card-outline">
+    <div class="container-fluid">
+        <div class="card card-primary">
+            <div class="card-header">
+                <h3 class="card-title">إضافة جدول الامتحانات</h3>
+            </div>
+            <!-- form start -->
+            <form>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>الفصل الدراسي</label>
+                        <select class="form-control">
+                            <option>الفصل الأول</option>
+                            <option>الفصل الثاني</option>
+                            <option>الفصل الثالث</option>
+                        </select>
+                    </div>
 
-                        <!-- رأس الكارد -->
-                        <div class="card-header d-flex align-items-center">
-                            <h3 class="card-title">إدارة المواد الدراسية</h3>
-                            <a href="add.html" class="btn btn-primary ml-auto">
-                                <i class="fas fa-plus"></i> إضافة مادة
-                            </a>
-                        </div>
+                    <div class="form-group">
+                        <label>المادة الدراسية</label>
+                        <select class="form-control">
+                            <option>برمجة 1</option>
+                            <option>نظم التشغيل</option>
+                            <option>قواعد البيانات</option>
+                        </select>
+                    </div>
 
-                        <!-- جسم الكارد (الجدول) -->
-                        <div class="card-body p-0">
-                            <table class="table table-bordered table-hover text-center mb-0">
-                                <thead class="bg-light">
-                                    <tr>
-                                        <th>#</th>
-                                        <th>اسم المادة</th>
-                                        <th>رمز المادة</th>
-                                        <th>السنة</th>
-                                        <th>الفصل</th>
-                                        <th>القسم</th>
-                                        <th>إجراءات</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <!-- صف افتراضي 1 -->
-                                    <tr>
-                                        <td>1</td>
-                                        <td>برمجة 1</td>
-                                        <td>IT101</td>
-                                        <td>1</td>
-                                        <td>الأول</td>
-                                        <td>تقنية معلومات</td>
-                                        <td>
-                                            <a href="edit.html?id=1" class="btn btn-sm btn-warning"
-                                                title="تعديل">
-                                                <i class="fas fa-edit"></i>
-                                            </a>
-                                            <a href="delete.php?id=1" class="btn btn-sm btn-danger" title="حذف"
-                                                onclick="return confirm('هل أنت متأكد أنك تريد حذف هذه المادة؟');">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
+                    <div class="form-group">
+                        <label>نوع الامتحان</label>
+                        <select class="form-control">
+                            <option>نصف الفصل</option>
+                            <option>النهائي</option>
+                        </select>
+                    </div>
 
-                                    <!-- صف افتراضي 2 -->
-                                    <tr>
-                                        <td>2</td>
-                                        <td>هياكل البيانات</td>
-                                        <td>IT202</td>
-                                        <td>2</td>
-                                        <td>الثاني</td>
-                                        <td>تقنية معلومات</td>
-                                        <td>
-                                            <a href="edit.html?id=2" class="btn btn-sm btn-warning"
-                                                title="تعديل">
-                                                <i class="fas fa-edit"></i>
-                                            </a>
-                                            <a href="delete_subject.ph?id=2" class="btn btn-sm btn-danger" title="حذف"
-                                                onclick="return confirm('هل أنت متأكد أنك تريد حذف هذه المادة؟');">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
+                    <div class="form-group">
+                        <label>تاريخ الامتحان</label>
+                        <input type="date" class="form-control">
+                    </div>
 
-                                    <!-- صف افتراضي 3 -->
-                                    <tr>
-                                        <td>3</td>
-                                        <td>شبكات الحاسوب</td>
-                                        <td>IT305</td>
-                                        <td>3</td>
-                                        <td>الأول</td>
-                                        <td>تقنية معلومات</td>
-                                        <td>
-                                            <a href="edit.html?id=3" class="btn btn-sm btn-warning"
-                                                title="تعديل">
-                                                <i class="fas fa-edit"></i>
-                                            </a>
-                                            <a href="delete_subject.php?id=3" class="btn btn-sm btn-danger" title="حذف"
-                                                onclick="return confirm('هل أنت متأكد أنك تريد حذف هذه المادة؟');">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
+                    <div class="form-group">
+                        <label>وقت الامتحان</label>
+                        <input type="time" class="form-control">
+                    </div>
 
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="form-group">
+                        <label>القاعة</label>
+                        <input type="text" class="form-control" placeholder="مثال: قاعة 102">
                     </div>
                 </div>
-            </section>
+
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">حفظ الجدول</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
 
 
             <!-- /.content -->

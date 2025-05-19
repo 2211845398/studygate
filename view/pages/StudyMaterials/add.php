@@ -23,7 +23,7 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="../../index3.html" class="nav-link">Home</a>
+            <a href="../../index2.php" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
             <a href="#" class="nav-link">Contact</a>
@@ -156,7 +156,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="../../index3.html" class="brand-link">
+        <a href="../../index2.php" class="brand-link">
         <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
         </a>
@@ -191,7 +191,7 @@
             <!-- Add icons to the links using the .nav-icon class
                 with font-awesome or any other icon font library -->
             <li class="nav-item menu-open">
-                <a href="../../index.html" class="nav-link active">
+                <a href="../../index2.php" class="nav-link active">
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>
                     لوحة التحكم 
@@ -208,7 +208,7 @@
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="../../index2.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                         الفصول الدراسية
@@ -228,7 +228,7 @@
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="../../index2.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                         الطلاب
@@ -248,7 +248,7 @@
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="../../index2.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                         المعلمون
@@ -268,7 +268,7 @@
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">
+                    <a href="main.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                         المواد الدراسية
@@ -288,13 +288,13 @@
                 </a>
                 <ul class="nav nav-treeview" style="display: none;">
                 <li class="nav-item">
-                    <a href="../../index.html" class="nav-link">
+                    <a href="../../index2.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                         الجداول الدراسية
                     </p>
                     </a>
-                    <a href="../../index.html" class="nav-link">
+                    <a href="../../index2.php" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>
                         جداول الامتحانات 
@@ -404,7 +404,7 @@
 
                         <div class="card-footer d-flex justify-content-between">
                         <button type="submit" class="btn btn-primary">حفظ</button>
-                        <a href="index.html" class="btn btn-secondary">إلغاء</a>
+                        <a href="main.php" class="btn btn-secondary">إلغاء</a>
                         </div>
                     </form>
                     </div>
